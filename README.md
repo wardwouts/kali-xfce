@@ -19,7 +19,7 @@ docker build -t kali-xfce github.com/wardwouts/kali-xfce-top10
 
 This may take a while, image size is ~10GB.
 
-Optionally use the `TOP` build argument to include only the top 10 Kali tools (image size ~%GB):
+Optionally use the `TOP` build argument to include only the top 10 Kali tools (image size ~5GB):
 
 ```
 docker build --build-arg TOP=true -t kali-xfce github.com/wardwouts/kali-xfce-top10
