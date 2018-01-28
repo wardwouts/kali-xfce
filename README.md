@@ -1,5 +1,5 @@
-# kali-xfce-top10
-Docker files for kali container with XFCE and top10 tools
+# kali-xfce
+Docker files for kali container with XFCE and full or top10 tools
 
 Creates a Kali Linux container with an XFCE desktop in a browser.
 
