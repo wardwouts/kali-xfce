@@ -1,5 +1,5 @@
 # kali-xfce
-Docker files for kali container with XFCE and full or top10 tools
+Docker files for kali container with XFCE and the full set of kali tools
 
 Creates a Kali Linux container with an XFCE desktop in a browser.
 
@@ -18,12 +18,6 @@ docker build -t kali-xfce github.com/wardwouts/kali-xfce-top10
 ```
 
 This may take a while, image size is ~10GB.
-
-Optionally use the `TOP` build argument to include only the top 10 Kali tools (image size ~5GB):
-
-```
-docker build --build-arg TOP=true -t kali-xfce github.com/wardwouts/kali-xfce-top10
-```
 
 Then start the container using:
 
