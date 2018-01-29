@@ -24,11 +24,8 @@ RUN cd /root/noVNC/utils && git clone https://github.com/kanaka/websockify webso
 RUN ln -s /root/noVNC/vnc.html /root/noVNC/index.html
 
 # Add Kali tools
-RUN if [ -z "${TOP}" ]; then \
-	apt-get install -y kali-linux-full --fix-missing ; \
-else \
-	apt-get install -y kali-linux-top10 --fix-missing ; \
-fi
+RUN apt-get install -y kali-linux-full --fix-missing
+# RUN apt-get install -y kali-linux-top10 --fix-missing
 
 # Add startup script
 ADD startup.sh /startup.sh
