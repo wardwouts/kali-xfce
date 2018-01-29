@@ -14,7 +14,7 @@ docker build -t kali-xfce .
 or
 
 ```
-docker build -t kali-xfce github.com/wardwouts/kali-xfce-top10
+docker build -t kali-xfce github.com/wardwouts/kali-xfce
 ```
 
 This may take a while, image size is ~10GB.
