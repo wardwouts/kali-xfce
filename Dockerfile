@@ -52,6 +52,7 @@ RUN update-menus
 # Make locate work
 RUN updatedb
 
+EXPOSE 5900
 EXPOSE 6080
 EXPOSE 22
 

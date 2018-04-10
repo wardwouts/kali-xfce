@@ -34,6 +34,11 @@ docker run -t -i kali-xfce
 Now in a browser go to the container IP address on port 6080. Eg. http://172.17.0.2:6080
 The password is `toor`.
 
+Alternatively connect using vncviewer on port 5900. Eg:
+```
+vncviewer 172.17.0.2:5900
+```
+
 For working on a specific project you may want to use:
 
 ```
